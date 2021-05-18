@@ -17,7 +17,6 @@ def findLostFiles(dirs, id):
 parser = argparse.ArgumentParser(description='Delete lost plotting files')
 parser.add_argument('--delete', action='store_true', help='delete the lost plot files')
 args = parser.parse_args()
-#print(args.delete)
 
 config = configparser.ConfigParser()
 config.read('config.conf')
