@@ -24,7 +24,6 @@ configTimeout = int(config['MAIN']['timeout'])
 logfiledir = config['MAIN']['logdir']
 
 logfiles = os.listdir(logfiledir)
-# lets assume there are not exceptions and no subdirectories
 now = time.time()
 
 print('checking {0} logfiles in {1}'.format(len(logfiles), logfiledir))
